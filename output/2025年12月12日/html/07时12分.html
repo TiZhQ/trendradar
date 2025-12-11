@@ -1,0 +1,116 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-12-12 07:12:20</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">芯片 半导体 美国 关税 贸易战 稀土 光伏</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AD%A6%E8%80%85%EF%BC%9A%E7%BE%8E%E5%9B%BD%E5%AF%B9%E5%8D%8E%E2%80%9C%E6%96%B0%E5%86%B7%E6%88%98%E2%80%9D%E6%88%98%E7%95%A5%E5%A4%B1%E8%B4%A5" target="_blank" class="news-link">学者：美国对华“新冷战”战略失败</a> [24] <font color='grey'>- 07时12分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E7%BE%8E%E5%9B%BD%E4%B8%8A%E4%BA%BF%E7%BE%8E%E5%85%83%E6%89%93%E9%80%A0%E2%80%9C%E9%81%A3%E8%BF%94%E7%A7%BB%E6%B0%91%E6%9C%BA%E9%98%9F%E2%80%9D" target="_blank" class="news-link">美国上亿美元打造“遣返移民机队”</a> [27] <font color='grey'>- 07时12分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761149" target="_blank" class="news-link">天量支出吓崩股价？甲骨文电话会紧急救火：“客户自带芯片”将拯救现金流，“我们没有疯狂举债”</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时12分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761205" target="_blank" class="news-link">美国上周首申人数增4.4万人，创2020年来最大增幅，续请人数骤降至8个月低点</a> [10] <font color='grey'>- 07时12分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E4%BC%97%E8%AE%AE%E9%99%A2%E9%80%9A%E8%BF%872026%E5%9B%BD%E9%98%B2%E6%8E%88%E6%9D%83%E6%B3%95%E6%A1%88" target="_blank" class="news-link">美国众议院通过2026国防授权法案</a> [17] <font color='grey'>- 07时12分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8p0kofqJKmN" target="_blank" class="news-link">美国财政部颁布对委内瑞拉新制裁措施</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时12分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1981652083473150962" target="_blank" class="news-link">美国国安新战略为何表明美国准备出卖全世界？</a> [6] <font color='grey'>- 07时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">人工智能 AI GPT 大模型</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3761175" target="_blank" class="news-link">AI泡沫担忧打压纳指，道指、小盘股指新高，白银续创新高，人民币一度升破7.05</a> [7] <font color='grey'>- 07时12分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347897&amp;amp;topic_name=%E5%8A%A8%E7%94%BB%E8%80%81%E7%89%8CGAINAX%E6%AD%A3%E5%BC%8F%E7%A0%B4%E4%BA%A7%E9%A2%86%E7%9B%92%E9%A5%AD" target="_blank" class="news-link">动画老牌GAINAX正式破产领盒饭</a> [13] <font color='grey'>- 07时12分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1982385153180394991" target="_blank" class="news-link">如何评价 DeepMind CEO 看中国 AI「毫无创新，但跟进速度可怕」的观点？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 07时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">娱乐 明星 出轨</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[weibo] <a href="https://s.weibo.com/weibo?q=%E4%BD%99%E5%B0%91%E7%BE%A4%E6%8F%AD%E9%9C%B2%E5%A8%B1%E4%B9%90%E5%9C%88%E7%9C%9F%E7%9B%B8&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">余少群揭露娱乐圈真相</a> [24] <font color='grey'>- 07时12分</font><br>[douyin] <a href="https://www.douyin.com/hot/2333171" target="_blank" class="news-link">张艺兴退股染色体娱乐</a> [27] <font color='grey'>- 07时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">特斯拉 马斯克</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347877&amp;amp;topic_name=%E7%89%B9%E6%96%AF%E6%8B%89%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%91%94%E5%80%92%E6%91%98%E9%95%9C%E8%A2%AB%E7%BE%A4%E5%98%B2" target="_blank" class="news-link">特斯拉机器人摔倒摘镜被群嘲</a> [11] <font color='grey'>- 07时12分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">城投 爆雷 逾期 定融 地方债务 商票</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">山东 爆雷 青岛 济南</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">IPO 财务 注册会计师 处罚 监管</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
