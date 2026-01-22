@@ -1,0 +1,117 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-01-23 05:57:29</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">芯片 半导体 美国 关税 贸易战 稀土 光伏</td>
+                    <td class="count">15</td>
+                    <td class="percentage">5.88%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7597216001684045830/" target="_blank" class="news-link">俄媒：中国应对美国威胁迎来新机遇</a> [30] <font color='grey'>- 05时57分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3763885" target="_blank" class="news-link">格陵兰“框架协议”流出：丹麦出让“格陵兰小块土地”主权，美国将建军事基地</a> [8] <font color='grey'>- 05时57分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32439660" target="_blank" class="news-link">特朗普态度大转弯：与北约就格陵兰达成“框架协议”，取消对欧关税
+</a> [17] <font color='grey'>- 05时57分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32439444" target="_blank" class="news-link">美国正式退出世卫组织</a> [18] <font color='grey'>- 05时57分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_32439911" target="_blank" class="news-link">格陵兰岛蛋糕印美国国旗，美国政客聚会持刀瓜分</a> [20] <font color='grey'>- 05时57分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8q7kEg1He8Y" target="_blank" class="news-link">在中国大量采购之下，拉美多国挺过特朗普关税冲击</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时57分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8q81yazj0KD" target="_blank" class="news-link">美国财长这句话，让日本极为尴尬</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时57分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8q7huMODUfi" target="_blank" class="news-link">美国底层活不起，特朗普却在达沃斯炫耀“让富人更富”</a> [8] <font color='grey'>- 05时57分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28349550&amp;amp;topic_name=%E6%95%99%E6%8E%88%E7%A5%9E%E8%AF%84%3A%E7%BE%8E%E5%9B%BD%E5%85%AC%E5%B9%B3%E5%BA%A6%E7%A2%BE%E5%8E%8B%E5%9B%BD%E5%86%85" target="_blank" class="news-link">教授神评:美国公平度碾压国内</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时57分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28349508&amp;amp;topic_name=%E4%B8%89%E8%A7%82%E9%9C%87%E7%A2%8E%2C%E7%BE%8E%E5%9B%BD%E9%A3%9F%E4%BA%BA%E7%AB%9F%E4%B8%8D%E8%BF%9D%E6%B3%95" target="_blank" class="news-link">三观震碎,美国食人竟不违法</a> [13] <font color='grey'>- 05时57分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28349497&amp;amp;topic_name=%E7%BE%8E%E5%9B%BD%E8%B5%A2%E5%AD%A6%E5%8D%87%E7%BA%A7%2C%E6%87%82%E7%8E%8B%E5%A4%A9%E5%A4%A9%E5%BC%80%E8%B5%A2%E8%B6%B4" target="_blank" class="news-link">美国赢学升级,懂王天天开赢趴</a> [22] <font color='grey'>- 05时57分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%9C%A8%E7%BA%BF%E6%B1%82%E5%8A%A9&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">美国人在线求助</a> [29] <font color='grey'>- 05时57分</font><br>[douyin] <a href="https://www.douyin.com/hot/2375680" target="_blank" class="news-link">美国正式退出世卫组织</a> [15] <font color='grey'>- 05时57分</font><br>[douyin] <a href="https://www.douyin.com/hot/2376099" target="_blank" class="news-link">特朗普执政一年把美国推向何方</a> [19] <font color='grey'>- 05时57分</font><br>[douyin] <a href="https://www.douyin.com/hot/2376362" target="_blank" class="news-link">商务部回应H200芯片购买审批</a> [20] <font color='grey'>- 05时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">IPO 财务 注册会计师 处罚 监管</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%8B%92%E6%94%B6%E4%BA%BA%E6%B0%91%E5%B8%81%E7%8E%B0%E9%87%91+2%E5%AE%B6%E5%8D%95%E4%BD%8D%E8%A2%AB%E5%A4%84%E7%BD%9A" target="_blank" class="news-link">拒收人民币现金 2家单位被处罚</a> [10] <font color='grey'>- 05时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2266886" target="_blank" class="news-link">蓝箭航天IPO审核状态变更为“已问询”</a> [7] <font color='grey'>- 05时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">人工智能 AI GPT 大模型</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3763860" target="_blank" class="news-link">张坤4100点上首“发声”：消费、房价、AI和国运，究竟该怎么看？</a> [7] <font color='grey'>- 05时57分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2266641" target="_blank" class="news-link">一图看懂 | 马斯克开年忙落子，太空、AI、机器人都有大动作</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">特斯拉 马斯克</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2266699" target="_blank" class="news-link">达沃斯迎来意外“客人”：马斯克首次现身 今晚发表讲话</a> [12] <font color='grey'>- 05时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">娱乐 明星 出轨</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7597978597357371443/" target="_blank" class="news-link">男子瘫痪后妻子出轨有孕想离婚</a> [15] <font color='grey'>- 05时57分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">城投 爆雷 逾期 定融 地方债务 商票</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">山东 爆雷 青岛 济南</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
