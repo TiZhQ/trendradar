@@ -1,0 +1,116 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-09-11 07:25:12</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">山东 爆雷 青岛 济南</td>
+                    <td class="count">9</td>
+                    <td class="percentage">3.53%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7683415450185220150/" target="_blank" class="news-link">青岛货轮火灾25人遇难</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E9%9D%92%E5%B2%9B%E8%B4%A7%E8%BD%AE%E7%81%AB%E7%81%BE%E4%BA%8B%E6%95%85%E8%87%B425%E4%BA%BA%E9%81%87%E9%9A%BE" target="_blank" class="news-link">青岛货轮火灾事故致25人遇难</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34044991" target="_blank" class="news-link">习近平对山东青岛市北海造船厂一货轮火灾事故作出重要指示</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34045992" target="_blank" class="news-link">山东青岛北海造船厂一货轮火灾事故已造成25人遇难</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时25分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%AF%B9%E9%9D%92%E5%B2%9B%E8%B4%A7%E8%BD%AE%E7%81%AB%E7%81%BE%E4%BD%9C%E5%87%BA%E6%8C%87%E7%A4%BA" target="_blank" class="news-link">习近平对青岛货轮火灾作出指示</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28363486&amp;amp;topic_name=%E9%9D%92%E5%B2%9B%E8%B4%A7%E8%BD%AE%E7%81%AB%E7%81%BE%E8%87%B425%E4%BA%BA%E6%AD%BB%E4%BA%A1" target="_blank" class="news-link">青岛货轮火灾致25人死亡</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时25分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23%E9%9D%92%E5%B2%9B%E8%B4%A7%E8%BD%AE%E7%81%AB%E7%81%BE25%E4%BA%BA%E9%81%87%E9%9A%BE%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">青岛货轮火灾25人遇难</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23%E9%9D%92%E5%B2%9B%E8%B4%A7%E8%BD%AE%E7%81%AB%E7%81%BE%E9%80%A0%E6%88%90%E9%87%8D%E5%A4%A7%E4%BA%BA%E5%91%98%E4%BC%A4%E4%BA%A1%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">青岛货轮火灾造成重大人员伤亡</a> [24] <font color='grey'>- 07时25分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2081482603501183466" target="_blank" class="news-link">山东青岛北海造船厂一货轮火灾事故已造成 25 人遇难，目前情况如何？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">芯片 半导体 美国 关税 贸易战 稀土 光伏</td>
+                    <td class="count">9</td>
+                    <td class="percentage">3.53%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3781506" target="_blank" class="news-link">美国8月PPI同比加速至5.4%超预期，核心PPI同比4.6%，美联储加息预期骤升</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3781481" target="_blank" class="news-link">通胀忧虑重燃，美国股债双杀，存储芯片股普跌，美油飙涨7%破百，黄金重挫逼近4300</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时25分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3781496" target="_blank" class="news-link">特朗普拟给美国成年人每人发5000美元，美媒算账：总额高达1.2万亿美元，关税收入远远不够</a> [10] <font color='grey'>- 07时25分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2479967" target="_blank" class="news-link">能源价格重新“点火” 美国8月PPI略超预期 加剧市场焦虑情绪</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时25分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2479913" target="_blank" class="news-link">美国8月PPI超预期 美股期指承压下跌 纳指期货跌超1% | 今夜看点</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时25分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2480136" target="_blank" class="news-link">美股收盘：美油破百三大指数四连跌 芯片、存储、光通信集体回落</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时25分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8wJoPOwElX7" target="_blank" class="news-link">伊朗拦截1艘美国无人水面艇</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时25分</font><br>[凤凰网] <a href="https://original.ifeng.com/c/8wJUFtSCxzC" target="_blank" class="news-link">欧洲试图挑起对华贸易战？中国欧盟商会主席回应</a> [6] <font color='grey'>- 07时25分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E7%BB%99%E8%BF%91%E7%99%BE%E4%B8%87%E7%BE%8E%E5%9B%BD%E4%BA%BA%E5%8F%91500%E7%BE%8E%E5%85%83%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">特朗普给近百万美国人发500美元</a> [8] <font color='grey'>- 07时25分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">人工智能 AI GPT 大模型</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.75%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34045224" target="_blank" class="news-link">人均10个Agent，Token是新一代“茅台”，外滩大会热议AI新经济</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时25分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34043592" target="_blank" class="news-link">经纬度：从外滩大会，看“AI新经济”走进生活</a> [11] <font color='grey'>- 07时25分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2479724" target="_blank" class="news-link">iPhone Duo能否卖得动？机构预测：今年出货500万支 看好AI推升折叠手机需求</a> [13] <font color='grey'>- 07时25分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28363454&amp;amp;topic_name=%E5%AD%A6%E5%A6%B9%E5%B9%B2%E4%B8%8D%E8%BF%87AI%2C%E7%BF%BB%E8%AF%91%E4%B8%93%E4%B8%9A%E5%A4%AA%E4%B8%A5%E5%B3%BB" target="_blank" class="news-link">学妹干不过AI,翻译专业太严峻</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时25分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2081004982103270003" target="_blank" class="news-link">数学已经被 AI 彻底革命了么？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时25分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2076970531870466744" target="_blank" class="news-link">既然 AI 一分钟就能开发出像《开心消消乐》《植物大战僵尸》这样的游戏，为什么排行榜上还是这些老游戏？</a> [7] <font color='grey'>- 07时25分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2080336745191817631" target="_blank" class="news-link">怎么看 GPT-6 Astra 判断代码没人看的时候，会倾向写人类看不懂的高度压缩「机器垃圾代码」？</a> [10] <font color='grey'>- 07时25分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">IPO 财务 注册会计师 处罚 监管</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3781482" target="_blank" class="news-link">重磅金融发布会！证监会、央行、金融监管总局、外汇局齐发声</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时25分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34045259" target="_blank" class="news-link">一图看懂｜围绕金融强国建设，央行、金融监管总局、证监会、国家外汇局最新发声</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时25分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">娱乐 明星 出轨</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2644178" target="_blank" class="news-link">谁懂一抬头西安全是明星的感觉</a> [22] <font color='grey'>- 07时25分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">城投 爆雷 逾期 定融 地方债务 商票</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">特斯拉 马斯克</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
