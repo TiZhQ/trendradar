@@ -1,0 +1,116 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 254</p><p>生成时间: 2026-10-13 16:29:12</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">人工智能 AI GPT 大模型</td>
+                    <td class="count">12</td>
+                    <td class="percentage">4.72%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7695240616376303626/" target="_blank" class="news-link">79岁老干妈陶华碧用AI一年赚了54亿</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时29分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AD%A9%E5%AD%90%E8%B6%8A%E6%9D%A5%E8%B6%8A%E7%AC%A8+AI%E6%AD%A3%E5%9C%A8%E6%83%A9%E7%BD%9A%E4%B8%8B%E4%B8%80%E4%BB%A3" target="_blank" class="news-link">孩子越来越笨 AI正在惩罚下一代</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时29分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%AC%E5%8F%B8%E7%A7%B0AI%E5%A5%B3%E5%81%B6%E5%83%8F%E5%9B%A0%E6%80%80%E5%AD%95%E6%9A%82%E5%81%9C%E6%B4%BB%E5%8A%A8" target="_blank" class="news-link">公司称AI女偶像因怀孕暂停活动</a> [29] <font color='grey'>- 16时29分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783458" target="_blank" class="news-link">博通CEO：许多AI投资者如同赌场赌徒，AI发展最大制约因素是资本</a> [6] <font color='grey'>- 16时29分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783452" target="_blank" class="news-link">AI算力需求爆发，联讯仪器前三季度净利润同比预增1866%至2073% ｜财报见闻</a> [9] <font color='grey'>- 16时29分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2502862" target="_blank" class="news-link">10月13日投资避雷针：德才股份、吉视传媒、欢瑞世纪等AI短剧概念股密集提示风险</a> [7] <font color='grey'>- 16时29分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28366789&amp;amp;topic_name=%E9%B2%B8%E5%A4%A9%E9%AD%94%E7%9B%97%E5%9B%A2%21%E9%BB%91%E5%AE%A2%E9%9D%A0AI%E5%85%A5%E4%BE%B5%E9%9F%A9%E5%9B%BD%E9%93%B6%E8%A1%8C" target="_blank" class="news-link">鲸天魔盗团!黑客靠AI入侵韩国银行</a> [20] <font color='grey'>- 16时29分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28366794&amp;amp;topic_name=OpenAI%E7%8B%82%E5%8F%91%E8%AE%BA%E6%96%87%2C%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%82%AE%E8%BD%B0" target="_blank" class="news-link">OpenAI狂发论文,数学家炮轰</a> [28] <font color='grey'>- 16时29分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=AI%E8%A7%86%E9%A2%91%E5%B7%B2%E7%BB%8F%E4%BB%A5%E5%81%87%E4%B9%B1%E7%9C%9F%E4%BA%86&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">AI视频已经以假乱真了</a> [9] <font color='grey'>- 16时29分</font><br>[weibo] <a href="https://s.weibo.com/weibo?q=%23AI%E5%A5%B3%E7%88%B1%E8%B1%86%E5%9B%A0%E6%80%80%E5%AD%95%E6%9A%82%E5%81%9C%E6%B4%BB%E5%8A%A8%23&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">AI女爱豆因怀孕暂停活动</a> [13] <font color='grey'>- 16时29分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2092973079471379000" target="_blank" class="news-link">王兴兴称过去犯的最大的错是不够相信 AI，如何看待此番言论？全力拥抱 AI 会给机器人行业带来哪些改变？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时29分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2088282544672458104" target="_blank" class="news-link">35 岁前策划用 5 万元的 token 做出纯 AI 游戏，他说「单人能搓《原神》」，你认为这是暴论还是预言？</a> [8] <font color='grey'>- 16时29分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">芯片 半导体 美国 关税 贸易战 稀土 光伏</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.36%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783408" target="_blank" class="news-link">财报季乐观预期与中东风险交织，美股指涨跌互现，存储芯片股重挫，油价走高，黄金下跌</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时29分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2502929" target="_blank" class="news-link">美国光通信板块周一跳水！华尔街热议成因</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时29分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2502915" target="_blank" class="news-link">韩国半导体展览会明日举行 三星电子、SK海力士在憋哪些大招？</a> [11] <font color='grey'>- 16时29分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xB9WdhgkWl" target="_blank" class="news-link">美国威胁切断对乌武器供应，俄乌局势或出现重大转折</a> [6] <font color='grey'>- 16时29分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xBZwsCc35d" target="_blank" class="news-link">胡塞武装警告美国</a> [7] <font color='grey'>- 16时29分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xAkY3y1FU6" target="_blank" class="news-link">“若俄方经由英吉利海峡给美国运柴油，英国海军得拦截”</a> [9] <font color='grey'>- 16时29分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">特斯拉 马斯克</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783500" target="_blank" class="news-link">长鑫4F²架构吓崩海外存储股，马斯克：中国规模化制造能力往往超过全球其他地区总和</a> [8] <font color='grey'>- 16时29分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xBWD2Kh3Bx" target="_blank" class="news-link">马斯克砸2.76亿美元助选共和党</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时29分</font><br>[douyin] <a href="https://www.douyin.com/hot/2692832" target="_blank" class="news-link">马一龙回应马斯克邀约</a> [20] <font color='grey'>- 16时29分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">山东 爆雷 青岛 济南</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%89%BF%E5%8C%85%E5%B1%B1%E4%B8%9C%E5%A4%A7%E9%9B%86%E8%83%BD%E4%B9%B0%E5%88%B0%E5%A4%9A%E5%B0%91%E5%BF%AB%E4%B9%90" target="_blank" class="news-link">承包山东大集能买到多少快乐</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时29分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">IPO 财务 注册会计师 处罚 监管</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2502851" target="_blank" class="news-link">【数读IPO】粤芯半导体，今日上市</a> [6] <font color='grey'>- 16时29分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">城投 爆雷 逾期 定融 地方债务 商票</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">娱乐 明星 出轨</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
