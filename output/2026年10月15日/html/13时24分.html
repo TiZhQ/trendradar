@@ -1,0 +1,116 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-10-15 13:24:39</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">人工智能 AI GPT 大模型</td>
+                    <td class="count">12</td>
+                    <td class="percentage">4.71%</td>
+                    <td class="titles">[百度热搜] <a href="https://www.baidu.com/s?wd=AI%E5%81%B6%E5%83%8F%E5%AE%98%E5%AE%A3%E6%80%80%E5%AD%95+%E4%B8%BA%E4%BD%95%E8%AE%A9%E4%BA%BA%E6%84%9F%E8%A7%89%E8%A2%AB%E5%86%92%E7%8A%AF" target="_blank" class="news-link">AI偶像官宣怀孕 为何让人感觉被冒犯</a> [8] <font color='grey'>- 13时24分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34249940" target="_blank" class="news-link">英国男子闯虎栏身亡后，特朗普发与老虎嬉戏AI视频遭网友痛骂</a> [15] <font color='grey'>- 13时24分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=AI%E5%86%8D%E7%8E%B0%E5%8D%81%E4%B8%83%E5%8B%87%E5%A3%AB%E5%BC%BA%E6%B8%A1%E5%A4%A7%E6%B8%A1%E6%B2%B3" target="_blank" class="news-link">AI再现十七勇士强渡大渡河</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时24分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A6%82%E4%BD%95%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E5%AD%A6%E4%B9%A0AI" target="_blank" class="news-link">如何从零开始学习AI</a> [23] <font color='grey'>- 13时24分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2505014" target="_blank" class="news-link">比尔·盖茨：AI 是人类最危险发明，未来一年网络领域恐有大量负面事件</a> [7] <font color='grey'>- 13时24分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2505247" target="_blank" class="news-link">五年内违约概率高达63%！AI信贷的第一颗“雷”要爆？</a> [9] <font color='grey'>- 13时24分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2504987" target="_blank" class="news-link">155款应用“战略缓冲”拒接豆包手机助手 腾讯阿里系占近六成 AI入口之争如何解局？</a> [11] <font color='grey'>- 13时24分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2505229" target="_blank" class="news-link">AI制药管线被扫货！两日30亿美元BD达成 行业迈入临床验证兑现期</a> [12] <font color='grey'>- 13时24分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28367216&amp;amp;topic_name=%E8%80%81%E5%B9%B2%E5%A6%88%E7%94%A8AI%E4%B8%80%E5%B9%B4%E7%8B%82%E8%B5%9A54%E4%BA%BF" target="_blank" class="news-link">老干妈用AI一年狂赚54亿</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 13时24分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28366789&amp;amp;topic_name=%E9%B2%B8%E5%A4%A9%E9%AD%94%E7%9B%97%E5%9B%A2%21%E9%BB%91%E5%AE%A2%E9%9D%A0AI%E5%85%A5%E4%BE%B5%E9%9F%A9%E5%9B%BD%E9%93%B6%E8%A1%8C" target="_blank" class="news-link">鲸天魔盗团!黑客靠AI入侵韩国银行</a> [30] <font color='grey'>- 13时24分</font><br>[douyin] <a href="https://www.douyin.com/hot/2695338" target="_blank" class="news-link">iPhone Duo已完成大模型备案</a> [24] <font color='grey'>- 13时24分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2092058455427359070" target="_blank" class="news-link">我觉得 OpenAI 最近这段时间写出来的所有论文，全部都是错误的，这难道不是很明显的吗？</a> [16] <font color='grey'>- 13时24分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">芯片 半导体 美国 关税 贸易战 稀土 光伏</td>
+                    <td class="count">9</td>
+                    <td class="percentage">3.53%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783586" target="_blank" class="news-link">美CPI重燃加息押注，纳指跌近2%，芯片指数六连跌，CoreWeave暴跌15%，美元创18个月新高</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时24分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783634" target="_blank" class="news-link">五个月来最大涨幅！美国9月CPI同比3.7%，核心CPI同比2.6%超预期，10月加息预期飙升</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时24分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3783596" target="_blank" class="news-link">10月加息押注所剩无几，今晚，美国CPI能否再添一击？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时24分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%BE%8E%E5%9B%BD%E7%A6%81%E7%94%A8%E6%B0%A2%E5%8C%96%E6%A4%8D%E7%89%A9%E6%B2%B9%E6%98%AF%E8%B0%A3%E8%A8%80%E5%90%97" target="_blank" class="news-link">美国禁用氢化植物油是谣言吗</a> [10] <font color='grey'>- 13时24分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2505117" target="_blank" class="news-link">【早报】纳指跳水跌超500点，半导体大跌；黄金、白银重挫，原油上涨；A股业绩预喜潮延续</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 13时24分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xE0pMbwKPf" target="_blank" class="news-link">美国前高官气得直接“石化”：被中国幼儿园吓成这样，太丢脸！</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 13时24分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xE1HR01AMr" target="_blank" class="news-link">澳大利亚总理：美国要直播死刑，“令人发指”</a> [7] <font color='grey'>- 13时24分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8xE1HR01APD" target="_blank" class="news-link">外媒：中国买家购入8至10船美国大豆，12月起开始装运</a> [9] <font color='grey'>- 13时24分</font><br>[douyin] <a href="https://www.douyin.com/hot/2695704" target="_blank" class="news-link">美国9月CPI同比上涨3.7%</a> [16] <font color='grey'>- 13时24分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">城投 爆雷 逾期 定融 地方债务 商票</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34248286" target="_blank" class="news-link">贵阳一男子称遭表兄冒名贷款2万元逾期利息达30余万，起诉银行一审败诉</a> [18] <font color='grey'>- 13时24分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">山东 爆雷 青岛 济南</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A4%A7%E8%8C%83%E5%9B%B4%E9%9B%A8%E9%9B%AA%E5%B0%86%E8%87%B3%E5%B1%B1%E4%B8%9C" target="_blank" class="news-link">大范围雨雪将至山东</a> [20] <font color='grey'>- 13时24分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">IPO 财务 注册会计师 处罚 监管</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2505131" target="_blank" class="news-link">Anthropic全力冲刺“史上最大IPO”：Q3营收暴涨46%，实现盈利！</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 13时24分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">特斯拉 马斯克</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[凤凰网] <a href="https://original.ifeng.com/c/8xEbnkMzWN9" target="_blank" class="news-link">乌军突然被设限了，马斯克回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 13时24分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">娱乐 明星 出轨</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
