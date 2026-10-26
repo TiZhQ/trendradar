@@ -1,0 +1,116 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2026-10-27 05:53:42</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">人工智能 AI GPT 大模型</td>
+                    <td class="count">11</td>
+                    <td class="percentage">4.31%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7700837515682578495/" target="_blank" class="news-link">AI短片《齐天大圣》为何能引发关注</a> [20] <font color='grey'>- 05时53分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=AI%E4%BC%AA%E4%BA%BA%E5%B9%BF%E5%91%8A%E6%AD%A3%E5%9C%A8%E9%9B%86%E4%BD%93%E2%80%9C%E9%9C%B8%E5%87%8C%E2%80%9D%E4%BA%BA%E7%B1%BB" target="_blank" class="news-link">AI伪人广告正在集体“霸凌”人类</a> [15] <font color='grey'>- 05时53分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3784428" target="_blank" class="news-link">周末，物理AI“刷屏”</a> [6] <font color='grey'>- 05时53分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3784484" target="_blank" class="news-link">股票募资就达950亿美元，包括650亿ATM发行！Meta“增发”补充AI弹药</a> [10] <font color='grey'>- 05时53分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34335625" target="_blank" class="news-link">众声丨用AI伪造父亲重病视频诈骗好友，步步踩在人心最不设防处</a> [8] <font color='grey'>- 05时53分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2515369" target="_blank" class="news-link">马斯克的AI电影《奥德赛》首秀：画面有了，叙事不足</a> [6] <font color='grey'>- 05时53分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368128&amp;amp;topic_name=AI%E8%A2%AB%E5%BD%93%E7%9C%9F%E4%BA%BA%2C%E5%A4%A7%E8%82%A5%E9%B1%BC%E9%81%AD%E7%BD%91%E6%81%8B%E5%93%A5%E9%AA%9A%E6%89%B0" target="_blank" class="news-link">AI被当真人,大肥鱼遭网恋哥骚扰</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时53分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368017&amp;amp;topic_name=%E5%A4%AE%E8%A7%86%E6%89%B9AI%E9%AD%94%E6%94%B9%E7%BB%8F%E5%85%B8%E5%90%8D%E8%91%97" target="_blank" class="news-link">央视批AI魔改经典名著</a> [20] <font color='grey'>- 05时53分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368005&amp;amp;topic_name=B%E7%AB%99%E8%82%A5%E9%B1%BC%E6%88%90%E7%81%BE%2CAI%E8%AF%84%E8%AE%BA%E6%B3%9B%E6%BB%A5" target="_blank" class="news-link">B站肥鱼成灾,AI评论泛滥</a> [27] <font color='grey'>- 05时53分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2098102680065237063" target="_blank" class="news-link">如何看待老干妈回应「用 AI 把 600 名工人裁到 48 人」，称是不实信息？品牌能挽回消费者信任吗？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时53分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2097984108207027914" target="_blank" class="news-link">菲尔兹奖得主邓煜评论 AI 公司「你不能只在你蒸馏全人类的知识时支持蒸馏」，如何看待模型厂的反蒸馏？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 05时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">IPO 财务 注册会计师 处罚 监管</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3784495" target="_blank" class="news-link">Anthropic正式提交IPO申请！上半年净亏807亿美元，公司称未来可能无法实现盈利，警示人类“生存危机”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时53分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3784464" target="_blank" class="news-link">Anthropic IPO重燃AI情绪，美股指反弹，芯片指数涨近3%，美债、油价齐回落</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 05时53分</font><br>[zhihu] <a href="https://www.zhihu.com/question/2098146460403615476" target="_blank" class="news-link">如何看待 Anthropic 提交 IPO 申请，将以「ANT」为代码登陆纳斯达克？会给 AI 行业带来哪些改变？</a> [10] <font color='grey'>- 05时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">芯片 半导体 美国 关税 贸易战 稀土 光伏</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8xXUVkT8olL" target="_blank" class="news-link">泽连斯基：我提了三个方案，美国一个都没满足</a> [10] <font color='grey'>- 05时53分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28368007&amp;amp;topic_name=%E7%BE%8E%E5%9B%BD%E5%A5%B3%E5%AD%A9%E6%9D%A5%E5%8D%8E%E4%B8%8A%E5%AD%A6%2C%E8%8B%B1%E8%AF%AD%E8%80%83%E5%80%92%E4%B8%80" target="_blank" class="news-link">美国女孩来华上学,英语考倒一</a> [28] <font color='grey'>- 05时53分</font><br>[douyin] <a href="https://www.douyin.com/hot/2713347" target="_blank" class="news-link">U17女足世界杯中国3:2美国</a> [11] <font color='grey'>- 05时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">娱乐 明星 出轨</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7700267800496983593/" target="_blank" class="news-link">媒体：娱乐至死的医疗真人秀该叫停了</a> [15] <font color='grey'>- 05时53分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34330398" target="_blank" class="news-link">马上评｜“娱乐至死”的医疗真人秀，该叫停了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">特斯拉 马斯克</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3784487" target="_blank" class="news-link">马斯克：人类在ASI面前是黑猩猩，未来所有钱和工作都将清零！</a> [8] <font color='grey'>- 05时53分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">比亚迪 王传福</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>7</td>
+                    <td class="word">城投 爆雷 逾期 定融 地方债务 商票</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+                <tr>
+                    <td>8</td>
+                    <td class="word">山东 爆雷 青岛 济南</td>
+                    <td class="count">0</td>
+                    <td class="percentage">0.0%</td>
+                    <td class="titles"></td>
+                </tr>
+            
+            </table>
+        </body>
+        </html>
+        
